@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "Provide the API server for task manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerStart/task-manager-server.git"
+  },
+  "keywords": [
+    "task",
+    "manager"
+  ],
+  "author": "Eason Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackerStart/task-manager-server/issues"
+  },
+  "homepage": "https://github.com/HackerStart/task-manager-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3"
+  }
+}
